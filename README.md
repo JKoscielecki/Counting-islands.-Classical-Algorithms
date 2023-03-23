@@ -1,1 +1,3 @@
 # Counting-islands.-Classical-Algorithms
+This implementation uses DFS to explore the connected components of the matrix, marking each cell as visited once it has been processed. The number of islands is incremented each time a new unvisited island cell is found. 
+The algorithm has a time complexity of O(M*N), which is the best we can do for this problem. Since we need to visit every cell in the matrix at least once, we can't achieve a faster algorithm than this. This is because, in the worst-case scenario, you have to visit every single cell in the matrix to determine the number of islands.
